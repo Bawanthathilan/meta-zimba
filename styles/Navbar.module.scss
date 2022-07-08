@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: $white_color;
+
+  .navbar__container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+
+    .navbar__links {
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        list-style: none;
+      }
+    }
+
+    .navbar__icons {
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        list-style: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.about_section {
+  background-image: url("../public/assets/gradient.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+
+  .about_container {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+
+    .left {
+      height: 500px;
+      .aboutImg {
+        position: relative;
+        height: 100%;
+      }
+    }
+
+    .right {
+      width: 80%;
+      .right_header {
+        h2 {
+          font-size: 20px;
+        }
+
+        p:nth-child(1) {
+          font-size: 2.2rem;
+          font-weight: 700;
+        }
+
+        p {
+          color: rgb(50, 50, 50);
+        }
+      }
+
+      .about_industries {
+        margin-top: 2rem;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 50% 50%;
+
+        .about_card {
+          backdrop-filter: blur(16px) saturate(180%);
+          -webkit-backdrop-filter: blur(16px) saturate(180%);
+          background-color: #5c24ff;
+          color: white;
+          border-radius: 10px;
+          padding: 10px;
+
+          .about_card_header {
+            display: flex;
+            flex-direction: row;
+
+            h3 {
+              margin-left: 1rem;
+            }
+          }
+
+          .about_card_body {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
