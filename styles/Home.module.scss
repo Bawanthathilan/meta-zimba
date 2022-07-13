@@ -1,3 +1,31 @@
 @import "./variables.scss";
 
+.section3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
+  .section3__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+    .section3__container__title {
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        margin-top: 1rem;
+      }
+    }
+
+    video {
+      margin-top: 3rem;
+    }
+  }
+}
