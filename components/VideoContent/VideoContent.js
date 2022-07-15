@@ -8,7 +8,7 @@ const VideoContent = () => {
         <div className={styles.section3__container}>
           <div className={styles.section3__container__title}>
             <h1>Innovation that will shape how we connect in the metaverse</h1>
-            <p>Learn More > </p>
+            <p>Learn More </p>
           </div>
 
           <video
